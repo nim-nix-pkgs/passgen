@@ -85,11 +85,11 @@
         "urand-master": "urand-master"
       },
       "locked": {
-        "lastModified": 1647060396,
-        "narHash": "sha256-3hcUTKm1YU5erETg1hfHYTaW94qvPP6xmfvc1asU6d4=",
+        "lastModified": 1647112126,
+        "narHash": "sha256-6KZ1uLFOJbb4qmElfivVund3nINFVSpy/egf/l1W2SE=",
         "owner": "nim-nix-pkgs",
         "repo": "urand",
-        "rev": "c02675cd70362523f60114f1db56b2a34f492120",
+        "rev": "bb3393d050fbb4a5b30796e8a6a7ceac60826d99",
         "type": "github"
       },
       "original": {
@@ -112,13 +112,20 @@
         "src-urand-master": "src-urand-master"
       },
       "locked": {
-        "narHash": "sha256-4uhqfH8y4k2aedLLCkzAnzUqI6Qn+zp7T7cMDtBd+zM=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647112126,
+        "narHash": "sha256-6KZ1uLFOJbb4qmElfivVund3nINFVSpy/egf/l1W2SE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "urand",
+        "rev": "bb3393d050fbb4a5b30796e8a6a7ceac60826d99",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "urand",
+        "type": "github"
       }
     }
   },
