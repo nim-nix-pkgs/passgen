@@ -1,0 +1,134 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-passgen-0_1_0": "src-passgen-0_1_0",
+        "urand": "urand"
+      }
+    },
+    "src-passgen-0_1_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1569729805,
+        "narHash": "sha256-MsDLcRKx3HCkU4z5cc66tH+dy09lq9fmD1UtESAdIwY=",
+        "owner": "rustomax",
+        "repo": "nim-passgen",
+        "rev": "0f2447db2db1aca791162268773be04d46bf5056",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rustomax",
+        "ref": "refs/tags/0.1.0",
+        "repo": "nim-passgen",
+        "type": "github"
+      }
+    },
+    "src-urand-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1543671366,
+        "narHash": "sha256-RP5RAJI81YDVDlJtvzhCA2BAGmPuBGVPKt/t6ut5Qq0=",
+        "owner": "Matceporial",
+        "repo": "nim-urand",
+        "rev": "f3385acce562d4b656f17d65ce586152e0882fc9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Matceporial",
+        "ref": "refs/heads/master",
+        "repo": "nim-urand",
+        "type": "github"
+      }
+    },
+    "urand": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "urand-master": "urand-master"
+      },
+      "locked": {
+        "lastModified": 1647935049,
+        "narHash": "sha256-BlBcgPyAjIkGxA05Z830A4R3vSGgOGbCqM2knpltO3g=",
+        "owner": "nim-nix-pkgs",
+        "repo": "urand",
+        "rev": "945dc7ccaae0de930f7cc88901fc93a2f188f1d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "urand",
+        "type": "github"
+      }
+    },
+    "urand-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "urand",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "urand",
+          "nixpkgs"
+        ],
+        "src-urand-master": "src-urand-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647935049,
+        "narHash": "sha256-BlBcgPyAjIkGxA05Z830A4R3vSGgOGbCqM2knpltO3g=",
+        "owner": "nim-nix-pkgs",
+        "repo": "urand",
+        "rev": "945dc7ccaae0de930f7cc88901fc93a2f188f1d6",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "urand",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
