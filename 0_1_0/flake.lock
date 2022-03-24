@@ -82,42 +82,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "urand-master": "urand-master"
-      },
-      "locked": {
-        "lastModified": 1648108201,
-        "narHash": "sha256-g5slQAlWF5DoGYHXsJGbUHHbmjM7hIMHd2wWkGD/Vj4=",
-        "owner": "nim-nix-pkgs",
-        "repo": "urand",
-        "rev": "aefeb438ba9d9cc4643bf8274461497aad3e2fce",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "urand",
-        "type": "github"
-      }
-    },
-    "urand-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "urand",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "urand",
-          "nixpkgs"
-        ],
         "src-urand-master": "src-urand-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108201,
-        "narHash": "sha256-g5slQAlWF5DoGYHXsJGbUHHbmjM7hIMHd2wWkGD/Vj4=",
+        "lastModified": 1648163720,
+        "narHash": "sha256-uMO29rngNyZ62F23uQG7Wox3MKdw+Qmo7iwjsdmaXC0=",
         "owner": "nim-nix-pkgs",
         "repo": "urand",
-        "rev": "aefeb438ba9d9cc4643bf8274461497aad3e2fce",
+        "rev": "ab667a5fdd16343e244d9bf0143cd529ee3cadc8",
         "type": "github"
       },
       "original": {
