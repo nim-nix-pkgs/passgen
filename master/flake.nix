@@ -11,6 +11,7 @@
   inputs.src-passgen-master.ref   = "refs/heads/master";
   inputs.src-passgen-master.owner = "rustomax";
   inputs.src-passgen-master.repo  = "nim-passgen";
+  inputs.src-passgen-master.dir   = "";
   inputs.src-passgen-master.type  = "github";
   
   inputs."nimcrypto".owner = "nim-nix-pkgs";
